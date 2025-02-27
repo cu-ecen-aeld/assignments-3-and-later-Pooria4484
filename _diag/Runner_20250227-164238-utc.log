@@ -1,0 +1,222 @@
+[2025-02-27 16:42:38Z INFO HostContext] Configuring anonymous proxy http://127.0.0.1:2081/ for all HTTP requests.
+[2025-02-27 16:42:38Z INFO HostContext] Configuring anonymous proxy http://127.0.0.1:2081/ for all HTTPS requests.
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'Credentials': '/home/pooria/colorado/assignment-1-Pooria4484/.credentials'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'Runner': '/home/pooria/colorado/assignment-1-Pooria4484/.runner'
+[2025-02-27 16:42:38Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2025-02-27 16:42:38Z INFO Listener] RuntimeInformation: Ubuntu 22.04.4 LTS.
+[2025-02-27 16:42:38Z INFO Listener] Version: 2.322.0
+[2025-02-27 16:42:38Z INFO Listener] Commit: 0edc478ca75d0a753dcbcec7405f3f26db67b1ac
+[2025-02-27 16:42:38Z INFO Listener] Culture: en-US
+[2025-02-27 16:42:38Z INFO Listener] UI Culture: en-US
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO Listener] Validating directory permissions for: '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO CommandLineParser] Parse
+[2025-02-27 16:42:38Z INFO CommandLineParser] Parsing 5 args
+[2025-02-27 16:42:38Z INFO CommandLineParser] parsing argument
+[2025-02-27 16:42:38Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 16:42:38Z INFO CommandLineParser] Adding Command: configure
+[2025-02-27 16:42:38Z INFO CommandLineParser] parsing argument
+[2025-02-27 16:42:38Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 16:42:38Z INFO CommandLineParser] arg: url
+[2025-02-27 16:42:38Z INFO CommandLineParser] parsing argument
+[2025-02-27 16:42:38Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 16:42:38Z INFO CommandLineParser] Adding option 'url': 'https://github.com/cu-ecen-aeld/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO CommandLineParser] parsing argument
+[2025-02-27 16:42:38Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 16:42:38Z INFO CommandLineParser] arg: token
+[2025-02-27 16:42:38Z INFO CommandLineParser] parsing argument
+[2025-02-27 16:42:38Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 16:42:38Z INFO CommandLineParser] Adding option 'token': '***'
+[2025-02-27 16:42:38Z INFO Listener] Arguments parsed
+[2025-02-27 16:42:38Z INFO Runner] ExecuteCommand
+[2025-02-27 16:42:38Z INFO ConfigurationStore] currentAssemblyLocation: /home/pooria/colorado/assignment-1-Pooria4484/bin/Runner.Listener.dll
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] binPath: /home/pooria/colorado/assignment-1-Pooria4484/bin
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] RootFolder: /home/pooria/colorado/assignment-1-Pooria4484
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'Runner': '/home/pooria/colorado/assignment-1-Pooria4484/.runner'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] ConfigFilePath: /home/pooria/colorado/assignment-1-Pooria4484/.runner
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'Credentials': '/home/pooria/colorado/assignment-1-Pooria4484/.credentials'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] CredFilePath: /home/pooria/colorado/assignment-1-Pooria4484/.credentials
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/pooria/colorado/assignment-1-Pooria4484/.credentials_migrated'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] MigratedCredFilePath: /home/pooria/colorado/assignment-1-Pooria4484/.credentials_migrated
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:38Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO HostContext] Well known config file 'Service': '/home/pooria/colorado/assignment-1-Pooria4484/.service'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] ServiceConfigFilePath: /home/pooria/colorado/assignment-1-Pooria4484/.service
+[2025-02-27 16:42:38Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 16:42:38Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 16:42:38Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 16:42:38Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 16:42:38Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE: |                       
+[2025-02-27 16:42:38Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE:                         |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 16:42:38Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 16:42:38Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-27 16:42:38Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-02-27 16:42:38Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 16:42:38Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 16:42:38Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 16:42:38Z INFO CommandSettings] Arg 'url': 'https://github.com/cu-ecen-aeld/assignment-1-Pooria4484'
+[2025-02-27 16:42:38Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-02-27 16:42:38Z INFO CommandSettings] Arg 'token': '***'
+[2025-02-27 16:42:38Z INFO CommandSettings] Remove token from Arg dictionary.
+[2025-02-27 16:42:39Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (83A0:17E9CF:8FA838:931220:67C095FE)
+[2025-02-27 16:42:39Z INFO ConfigurationManager] Using V2 flow: False
+[2025-02-27 16:42:39Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-02-27 16:42:39Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:39Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 16:42:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:39Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 16:42:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:39Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 16:42:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:40Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:42:40Z INFO ConfigurationManager] Test Connection complete.
+[2025-02-27 16:42:40Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:40Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:40Z INFO HostContext] Well known config file 'RSACredentials': '/home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams'
+[2025-02-27 16:42:40Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-02-27 16:42:40Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams
+[2025-02-27 16:42:40Z INFO RSAFileKeyManager] Which2: 'chmod'
+[2025-02-27 16:42:40Z INFO RSAFileKeyManager] Location: '/usr/bin/chmod'
+[2025-02-27 16:42:40Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:42:40Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper] Process started with process id 7224, waiting for process exit.
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-27 16:42:40Z INFO ProcessInvokerWrapper] Finished process 7224 with exit code 0, and elapsed time 00:00:00.0031528.
+[2025-02-27 16:42:40Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams
+[2025-02-27 16:42:41Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-02-27 16:42:41Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 16:42:41Z INFO PromptManager] ReadValue
+[2025-02-27 16:42:41Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-02-27 16:42:41Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-02-27 16:42:41Z INFO Terminal] READ LINE
+[2025-02-27 16:42:46Z INFO Terminal] Read value: ''
+[2025-02-27 16:42:46Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-02-27 16:42:46Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:42:46Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-02-27 16:42:46Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 16:42:46Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 16:42:46Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 16:42:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 16:42:46Z INFO PromptManager] ReadValue
+[2025-02-27 16:42:46Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 16:42:46Z INFO Terminal] WRITE: [press Enter for Pooria-PC] 
+[2025-02-27 16:42:46Z INFO Terminal] READ LINE
+[2025-02-27 16:42:49Z INFO Terminal] Read value: ''
+[2025-02-27 16:42:49Z INFO PromptManager] Falling back to the default: 'Pooria-PC'
+[2025-02-27 16:42:49Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:42:49Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 16:42:49Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 16:42:49Z INFO PromptManager] ReadValue
+[2025-02-27 16:42:49Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 16:42:49Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 16:42:49Z INFO Terminal] READ LINE
+[2025-02-27 16:42:53Z INFO Terminal] Read value: ''
+[2025-02-27 16:42:53Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:42:53Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 16:42:53Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 16:42:53Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 16:42:53Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 16:42:53Z INFO ConfigurationStore] Saving OAuth credential @ /home/pooria/colorado/assignment-1-Pooria4484/.credentials
+[2025-02-27 16:42:53Z INFO ConfigurationStore] Credentials Saved.
+[2025-02-27 16:42:53Z INFO ConfigurationStore] HasCredentials()
+[2025-02-27 16:42:53Z INFO ConfigurationStore] stored True
+[2025-02-27 16:42:53Z INFO CredentialManager] GetCredentialProvider
+[2025-02-27 16:42:53Z INFO CredentialManager] Creating type OAuth
+[2025-02-27 16:42:53Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-27 16:42:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams
+[2025-02-27 16:42:53Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:53Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 16:42:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:53Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 16:42:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:53Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 16:42:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 16:42:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 16:42:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 16:42:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams
+[2025-02-27 16:42:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/pooria/colorado/assignment-1-Pooria4484/.credentials_rsaparams
+[2025-02-27 16:42:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-02-27 16:42:56Z INFO CommandSettings] Arg 'work': ''
+[2025-02-27 16:42:56Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 16:42:56Z INFO PromptManager] ReadValue
+[2025-02-27 16:42:56Z INFO Terminal] WRITE: Enter name of work folder: 
+[2025-02-27 16:42:56Z INFO Terminal] WRITE: [press Enter for _work] 
+[2025-02-27 16:42:56Z INFO Terminal] READ LINE
+[2025-02-27 16:43:10Z INFO Terminal] Read value: ''
+[2025-02-27 16:43:10Z INFO PromptManager] Falling back to the default: '_work'
+[2025-02-27 16:43:10Z INFO ConfigurationStore] Saving runner settings.
+[2025-02-27 16:43:10Z INFO ConfigurationStore] Settings Saved.
+[2025-02-27 16:43:10Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:43:10Z INFO Terminal] WRITE LINE: 
+[2025-02-27 16:43:10Z INFO SystemDControlManager] Service name 'actions.runner.cu-ecen-aeld-assignment-1-Pooria4484.Pooria-PC.service' display name 'GitHub Actions Runner (cu-ecen-aeld-assignment-1-Pooria4484.Pooria-PC)' will be used for service configuration.
+[2025-02-27 16:43:10Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:43:10Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:43:10Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:43:10Z INFO HostContext] Well known directory 'Bin': '/home/pooria/colorado/assignment-1-Pooria4484/bin'
+[2025-02-27 16:43:10Z INFO HostContext] Well known directory 'Root': '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:43:10Z INFO UnixUtil] Which2: 'chmod'
+[2025-02-27 16:43:10Z INFO UnixUtil] Location: '/usr/bin/chmod'
+[2025-02-27 16:43:10Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/pooria/colorado/assignment-1-Pooria4484/svc.sh"
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/pooria/colorado/assignment-1-Pooria4484/svc.sh"'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/pooria/colorado/assignment-1-Pooria4484'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 7241.
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] Process started with process id 7241, waiting for process exit.
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-02-27 16:43:10Z INFO ProcessInvokerWrapper] Finished process 7241 with exit code 0, and elapsed time 00:00:00.0010069.
+[2025-02-27 16:43:10Z INFO Listener] Runner execution has finished with return code 0
