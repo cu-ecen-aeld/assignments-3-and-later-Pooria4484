@@ -1,6 +1,7 @@
 #!/bin/sh
 cd $(dirname $0)
 echo "Running test script"
+echo $(pwd)
 ./finder-test.sh
 rc=$?
 if [ ${rc} -eq 0 ]; then
@@ -10,3 +11,4 @@ else
 fi
 echo "finder-app execution complete, dropping to terminal"
 /bin/sh
+# 

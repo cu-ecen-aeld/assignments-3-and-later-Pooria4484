@@ -1,5 +1,8 @@
-# Default compiler (native) if CROSS_COMPILE not specified
-CC ?= gcc
+# Cross-compiler prefix (e.g., aarch64-none-linux-gnu-), empty by default
+CROSS_COMPILE ?=
+
+# Compiler (always use gcc, prefixed by CROSS_COMPILE)
+CC = gcc
 
 # Source file
 SRC = writer.c

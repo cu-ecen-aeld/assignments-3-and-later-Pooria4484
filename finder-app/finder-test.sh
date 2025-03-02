@@ -51,15 +51,17 @@ fi
 
 # Clean previous build artifacts and compile writer as native application
 echo "Cleaning previous build artifacts and compiling writer application"
-make clean
-make
+# make clean
+# make
 
 for i in $(seq 1 "$NUMFILES")
 do
     ./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
 done
 
-OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
+echo $(pwd)
+
+OUTPUTSTRING=$(/home/finder.sh "$WRITEDIR" "$WRITESTR")
 
 # remove temporary directories
 rm -rf /tmp/aeld-data
