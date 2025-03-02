@@ -2,6 +2,23 @@
 # Script outline to install and build kernel for assignment full-test.
 # Author: Siddhant Jajoo, modified by Grok for Pooria.
 
+#!/bin/bash
+
+install_if_missing() {
+    if ! command -v "$1" >/dev/null 2>&1; then
+        echo 
+        apt-get update && apt-get install -y "$2"
+    else
+        echo 
+    fi
+}
+
+install_if_missing flex flex
+install_if_missing killall psmisc
+install_if_missing bison bison 
+
+
+
 set -e
 set -u
 
