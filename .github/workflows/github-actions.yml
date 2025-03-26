@@ -13,7 +13,7 @@ jobs:
         with:
           submodules: true
       - name: Update submodules
-        run: git submodule update --recursive
+        # run: git submodule update --recursive
       - name: Run unit test
         run: ./unit-test.sh
   full-test:
@@ -23,6 +23,6 @@ jobs:
         with:
           submodules: true
       - name: Update submodules
-        run: git submodule update --recursive
+        # run: git submodule update --recursive
       - name: Run full test
         run: ./full-test.sh%                                                                                                                                                                 
