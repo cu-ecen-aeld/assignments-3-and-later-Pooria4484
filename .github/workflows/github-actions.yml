@@ -25,4 +25,4 @@ jobs:
       # - name: Update submodules
         # run: git submodule update --recursive
       - name: Run full test
-        run: ./full-test.sh%                                                                                                                                                                 
+        run: ./full-test.sh                                                                                                                                                            
