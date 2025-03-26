@@ -9,16 +9,21 @@ jobs:
   unit-test:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v2
-      - name: Checkout submodules
-        run: git submodule update --init --recursive
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Update submodules
+        run: git submodule update --recursive
       - name: Run unit test
         run: ./unit-test.sh
   full-test:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v2
-      - name: Checkout submodules
-        run: git submodule update --init --recursive
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Update submodules
+        run: git submodule update --recursive
       - name: Run full test
-        run: ./full-test.sh
+        run: ./full-test.sh%                                                                                                                                                                 
+➜  assignments-3-and-later-Poor
