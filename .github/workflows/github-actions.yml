@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
-      # - name: Update submodules
-        # run: git submodule update --recursive
+      - name: Update submodules
+        run: git submodule update --recursive
       - name: Run unit test
         run: ./unit-test.sh
   full-test:
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
-      # - name: Update submodules
-        # run: git submodule update --recursive
+      - name: Update submodules
+        run: git submodule update --recursive
       - name: Run full test
         run: ./full-test.sh                                                                                                                                                            
